@@ -19,4 +19,4 @@ sobre_bitcoin
 Que_necesitasita_saber
 yo_te_puedo-ayudar
 tengo_experienciaza
-comienza_contactotar_me
+comienza_contactarme
