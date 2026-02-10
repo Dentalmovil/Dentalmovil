@@ -49,4 +49,4 @@ echo '<!DOCTYPE html>
     <h1>Bienvenido a Dentalmovilr4</h1>
 </body>
 </html>' > index.html
-
+git add index.html
