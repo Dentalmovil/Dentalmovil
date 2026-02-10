@@ -64,4 +64,25 @@ npm install
 
 # Inicia el servidor de desarrollo
 npm run dev
+{
+  "name": "React con Vite y Herramientas Pro",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets", // Snippets de React
+        "dbaeumer.vscode-eslint",         // Corrector de errores de código
+        "esbenp.prettier-vscode",         // Formateador de código
+        "christian-kohler.npm-intellisense", // Autocompletado de paquetes npm
+        "bradlc.vscode-tailwindcss"       // Si usas Tailwind CSS
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "forwardPorts": [5173], // El puerto por defecto de Vite
+  "postCreateCommand": "npm install" 
+}
 
