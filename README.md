@@ -53,3 +53,15 @@ git add index.html
 "Mejora de diseño y soporte móvil"
 git push -u origin main
 git push -u origin main
+# Si quieres un proyecto nuevo con Vite (recomendado en 2026)
+npm create vite@latest mi-app -- --template react
+
+# Entra a la carpeta
+cd mi-app
+
+# Instala las dependencias
+npm install
+
+# Inicia el servidor de desarrollo
+npm run dev
+
