@@ -1,4 +1,4 @@
-### Hi there 👋
+i### Hi there 👋
 
 <!--
 **Dentalmovil/Dentalmovil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -50,3 +50,4 @@ echo '<!DOCTYPE html>
 </body>
 </html>' > index.html
 git add index.html
+"Mejora de diseño y soporte móvil"
