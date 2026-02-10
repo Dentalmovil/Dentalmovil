@@ -95,4 +95,26 @@ RUN apt-get update && apt-get install -y \
 
 # (Opcional) Instalar globalmente herramientas como vercel o netlify CLI
 RUN npm install -g vercel netlify-cli
+{
+  "name": "React Pro con Docker",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker" // Nueva: para gestionar Docker desde VS Code
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteUser": "node",
+  "forwardPorts": [5173, 3000],
+  "postCreateCommand": "npm install"
+}
+
 
