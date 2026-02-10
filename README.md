@@ -85,4 +85,14 @@ npm run dev
   "forwardPorts": [5173], // El puerto por defecto de Vite
   "postCreateCommand": "npm install" 
 }
+FROM mcr.microsoft.com/devcontainers/javascript-node:20
+
+# Instalar herramientas adicionales de sistema si las necesitas
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# (Opcional) Instalar globalmente herramientas como vercel o netlify CLI
+RUN npm install -g vercel netlify-cli
 
