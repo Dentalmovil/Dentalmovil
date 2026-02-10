@@ -116,5 +116,37 @@ RUN npm install -g vercel netlify-cli
   "forwardPorts": [5173, 3000],
   "postCreateCommand": "npm install"
 }
+name: React CI
+
+# ¿Cuándo se ejecutará? Al hacer push o pull request a la rama main
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar el código del repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Verificar errores de compilación (Build)
+        run: npm run build
+
+      - name: Ejecutar Tests (Opcional)
+        run: npm test -- --watchAll=false
+
 
 
