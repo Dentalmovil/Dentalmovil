@@ -1,26 +1,13 @@
-i### Hi there 👋
+🛡️
+# Análisis del Mercado Digital
 
-<!--
-**Dentalmovil/Dentalmovil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 Actualmente estoy trabajando en...
-- 🌱 Actualmente estoy aprendiendo... ir
-- 👯 Busco colaborar en...
-- 🤔 Busco ayuda con...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-inversiones_comerciales
+"Inversiones_comerciales
 sobre_bitcoin
 Que_necesitasita_saber
 yo_te_puedo-ayudar
 tengo_experienciaza
 comienza_contactarme
-en_mi_redes_sociales
+en_mi_redes_sociales"
 
 Bitcoin y la escasez digital
 Análisis del Mercado Digital: Tipos de Activos
@@ -87,9 +74,7 @@ Para cerrar esta sesión, imagina una situación real: eres un comerciante que q
 ​B. Ethereum (ETH)
 ​C. Stablecoins (USDT/USDC)
 ​¿Qué me dices?
-Exactamente! Las Stablecoins (C) son la herramienta ideal para un comerciante. 🛒 Al estar vinculadas al valor del dólar, puedes recibir el pago hoy y tener la seguridad de que mañana seguirá valiendo lo mismo cuando necesites pagar tus facturas, evitando las subidas y bajadas repentinas del mercado. 🛡️
-# Análisis del Mercado Digital
-
+Exactamente! Las Stablecoins (C) son la herramienta ideal para un comerciante. 🛒 Al estar vinculadas al valor del dólar, puedes recibir el pago hoy y tener la seguridad de que mañana seguirá valiendo lo mismo cuando necesites pagar tus facturas, evitando las subidas y bajadas repentinas del mercado. 
 ## 1. Reserva de Valor: Bitcoin (BTC) 🧡
 - **Escasez:** Solo existirán 21 millones.
 - **Función:** Oro digital y ahorro a largo plazo.
