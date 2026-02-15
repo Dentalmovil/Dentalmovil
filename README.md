@@ -56,4 +56,14 @@ En el mundo cripto, la confianza se basa en datos, no en promesas. Operamos con 
 Seguridad Primero: Implementamos protocolos de última generación para proteger cada transacción. Si no es seguro, no es una opción para nosotros.
 Innovación Adaptativa: El mercado cambia en segundos; nosotros evolucionamos con él para ofrecer siempre las mejores oportunidades de venta y trading.
 Educación Continua: No solo vendemos activos, empoderamos a nuestros usuarios con el conocimiento necesario para tomar decisiones inteligentes.
+# 1. Asegúrate de estar en main
+git checkout main
+
+# 2. Trae los cambios de la rama donde estabas trabajando
+git merge Dentalmovil-patch-30
+
+# 3. Si hay errores, acepta los cambios actuales y sube todo
+git add .
+git commit -m "Limpieza total de rutas y archivos"
+git push origin main
 
