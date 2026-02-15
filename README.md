@@ -66,4 +66,13 @@ git push origin main
 git add index.html
 git commit -m "Fix: Restaurar index.html para corregir fallo de build"
 git push origin main
+# Une tu trabajo actual con la rama principal
+git checkout main
+git pull origin main
+git merge Dentalmovil-patch-30
+# Sube la versión definitiva
+git add .
+git commit -m "Fix: Sincronización final y corrección de rutas de build"
+git push origin main
+
 
