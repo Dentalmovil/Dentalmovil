@@ -1,7 +1,4 @@
-git add index.html
-git commit -m "Fix: Restaurar index.html para corregir fallo de build"
-git push origin main
- <h1>Bienvenido a Dentalmovilr4</h1>" > index.html
+<h1>Bienvenido a Dentalmovilr4</h1>" > index.html
 git commit -m "Agregado index principal para Dentalmovilr4"
 git push -u origin main
 git push -u origin main
@@ -65,5 +62,8 @@ git merge Dentalmovil-patch-30
 # 3. Si hay errores, acepta los cambios actuales y sube todo
 git add .
 git commit -m "Limpieza total de rutas y archivos"
+git push origin main
+git add index.html
+git commit -m "Fix: Restaurar index.html para corregir fallo de build"
 git push origin main
 
