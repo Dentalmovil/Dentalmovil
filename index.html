@@ -1,31 +1,50 @@
-# 🦷 Sistema de Gestión de Prótesis Dentales - Dentalmovil
+<h1>Bienvenido a Dentalmovilr4</h1>" > 
+"homepage": "https://github.com/Dentalmovil
 
-![Estado del Build](https://img.shields.io/github/actions/workflow/status/Dentalmovil/NOMBRE_DE_TU_REPO/webpack.yml?branch=main)
-![Vercel](https://img.shields.io/badge/Vercel-Deploy-black?logo=vercel)
+function Home() {
+  return <h1 className="text-3xl font-bold text-blue-600">🏠 "Quiénes Somos"</h1>;
+}Somos un equipo de especialistas en tecnología blockchain y finanzas digitales convencidos de que el acceso a la nueva economía debe ser transparente y seguro. En un mercado saturado de complejidad, nuestra misión es simplificar el proceso de compra y venta de activos digitales, ofreciendo una infraestructura robusta y herramientas de análisis que permiten a nuestros usuarios operar con la tranquilidad que el capital merece.
 
-Este repositorio contiene la plataforma especializada para el seguimiento, diseño y administración de **Prótesis Dentales**. Un enfoque digital para la odontología moderna.
+function Home() {
+  return <h1 className="text-3xl font-bold text-blue-600">ℹ️Nuestra Filosofía </h1>;
+}El mercado cripto no debería ser un club exclusivo para expertos. Nacimos con el objetivo de democratizar las inversiones en activos digitales, eliminando las barreras técnicas y el lenguaje confuso. No solo vendemos soluciones de mercado; acompañamos a nuestra comunidad en su transición hacia la libertad financiera, proporcionando datos en tiempo real y estrategias probadas para navegar la volatilidad con inteligencia
+https://es.investing.com/crypto?hl=es-CO
 
-## 📋 Módulos del Proyecto
-* **Registro de Pacientes**: Expediente clínico enfocado en rehabilitación oral.
-* **Gestión de Prótesis**: Seguimiento de estados (Impresión, Prueba de cera, Acrilizado, Entrega).
-* **Catálogo de Materiales**: Control de inventario (Resinas, porcelanas, dientes acrílicos).
-* **Visualización de Casos**: Galería de fotos para el "Antes y Después".
+export default function App() {
+  return (
+    <Router>
+      <nav className="p-4 bg-gray-800 text-white flex gap-4">
+        <Link to="/" className="hover:text-blue-400">Inicio</Link>
+        <Link to="/about" className="hover:text-green-400">Acerca de</Link>
+      </nav>
 
-## 🛠️ Stack Tecnológico
-* **React.js**: Para una interfaz reactiva y rápida.
-* **Tailwind CSS**: Para un diseño "Aesthetic" y profesional.
-* **Firebase**: Base de datos en tiempo real para actualizaciones inmediatas.
+      <div className="p-8">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 
-## ⚙️ Configuración Inicial
-Para trabajar en este repositorio sin errores de "build":
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MainLayout from './components/MainLayout';
 
-1. Instala las dependencias:
-   `npm install`
-2. Instala Webpack CLI (para evitar errores en GitHub Actions):
-   `npm install --save-dev webpack-cli`
-3. Crea tu archivo `.env` con las credenciales necesarias.
+function Home() { return <h2 className="text-2xl font-bold">🏠Sobre el Proyecto</h2>; }En el vertiginoso mundo de las criptomonedas, la velocidad y la precisión son lo único que separa una oportunidad de una pérdida. Este proyecto surge para fusionar algoritmos avanzados con visión de mercado, permitiendo que las ventas y transacciones se ejecuten en el momento óptimo. Somos la herramienta para el inversor que busca eficiencia, liquidez y una ventaja competitiva en el ecosistema Web3.
+function Profile() { return <h2 className="text-2xl font-bold">🚀 Nuestra Identidad</h2>; }Misión:
 
-## 📸 Galería
-<p align="center">
-  <img src="URL_DE_TU_FOTO_DE_GOOGLE_O_GITHUB" width="400" alt="Vista Previa Prótesis">
-</p>
+Facilitar el acceso al ecosistema de activos digitales a través de una plataforma de venta segura, intuitiva y transparente. Nos dedicamos a derribar las barreras técnicas del mundo cripto, permitiendo que tanto individuos como empresas gestionen su capital en la nueva economía descentralizada con total confianza.
+
+Visión 2030:
+
+Convertirnos en el puente principal de liquidez y educación financiera en el mercado de criptomonedas a nivel regional, liderando la transición hacia un sistema financiero más abierto, eficiente y sin fronteras.
+
+function Home() {
+  return <h1 className="text-3xl font-bold text-blue-600">💎 Nuestros Valores</h1>;Fundamentales
+
+Transparencia Radical: 
+En el mundo cripto, la confianza se basa en datos, no en promesas. Operamos con total claridad en nuestras comisiones y procesos.
+Seguridad Primero: Implementamos protocolos de última generación para proteger cada transacción. Si no es seguro, no es una opción para nosotros.
+Innovación Adaptativa: El mercado cambia en segundos; nosotros evolucionamos con él para ofrecer siempre las mejores oportunidades de venta y trading.
+Educación Continua: No solo vendemos activos, empoderamos a nuestros usuarios con el conocimiento necesario para tomar decisiones inteligentes.
